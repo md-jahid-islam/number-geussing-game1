@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: brown;
+    flex-direction: column;
+}
+.main{
+    width: 450px;
+    height: 210px;
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ .player_one_input{
+    width: 100%;
+    height: 55px;
+    outline: none;
+    border: 3px solid goldenrod;
+    background: yellow;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: cadetblue;
+    text-align: center;
+ }
+ .player_one_button{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    outline: none;
+    border: 3px solid sandybrown;
+    background: burlywood;
+    font-size: 24px;
+    font-weight: 500;
+    color: blueviolet;
+    border-radius: 10px;
+    border: 3px solid fuchsia;
+ }
+ .error{
+    font-size: 26px;
+    font-weight: 300;
+    color: hotpink;
+ }
+ .player_tow_input{
+    width: 100%;
+    height: 55px;
+    outline: none;
+    border: 3px solid #da3620;
+    background: #00ffd5;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(243, 10, 204);
+    text-align: center;
+ }
+ .player_tow_button{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    outline: none;
+    border: 3px solid #a192f7;
+    background: rgb(133, 131, 236);
+    font-size: 24px;
+    font-weight: 500;
+    color: #0451f7;
+    border-radius: 10px;
+    border: 3px solid greenyellow;
+ }
+ 
+ .player_tow{
+    display: none;
+ }
